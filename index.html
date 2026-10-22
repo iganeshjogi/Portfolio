@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ganesh Jogi — Data Analyst portfolio featuring Python, SQL, Power BI, Tableau, and data analytics projects.">
+  <title>Ganesh Jogi | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Ganesh Jogi home"><img src="assets/profile.jpg" alt="Ganesh Jogi profile photo"></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-controls="nav-links" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">
+        <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> DATA ANALYST · PUNE, INDIA</p>
+          <h1>Hi, I'm <span>Ganesh Jogi.</span></h1>
+          <h2>I turn data into clear, useful insights.</h2>
+          <p class="hero-summary">B.Tech graduate building practical skills in data analytics and business intelligence using Python, SQL, Power BI, and Tableau.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="assets/resume.pdf" target="_blank" rel="noopener">View resume <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="assets/resume.pdf" download>Download PDF <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="social-links" aria-label="Professional links">
+            <a href="https://www.linkedin.com/in/iganeshjogi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5A2.2 2.2 0 1 1 5.2 7.9a2.2 2.2 0 0 1 0-4.4ZM3.3 9.4h3.8v11.3H3.3V9.4Zm6.1 0H13v1.5h.1a4 4 0 0 1 3.6-1.9c3.9 0 4.6 2.5 4.6 5.7v6h-3.8v-5.3c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9v5.4H9.4V9.4Z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/iganeshjogi" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.6-1.3-1.6-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.3.7 1 .7 2v3.9c0 .3.2.7.8.6A11.1 11.1 0 0 0 12 .9Z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="mailto:ganeshjogi2004@gmail.com" aria-label="Email Ganesh" title="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18A1.5 1.5 0 0 1 22.5 7v10a1.5 1.5 0 0 1-1.5 1.5H3A1.5 1.5 0 0 1 1.5 17V7A1.5 1.5 0 0 1 3 5.5Zm9 7.1L20.3 7H3.7l8.3 5.6Zm-9 4.1h18V8.8l-9 6.1-9-6.1v7.9Z"/></svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Core focus areas">
+          <p class="card-kicker">CURRENT FOCUS</p>
+          <h3>Analytics &amp; BI</h3>
+          <div class="focus-row"><span class="focus-mark">Py</span><div><strong>Data analysis</strong><small>Python · Pandas · NumPy</small></div></div>
+          <div class="focus-row"><span class="focus-mark blue">SQL</span><div><strong>Data querying</strong><small>SQL · MySQL · Data cleaning</small></div></div>
+          <div class="focus-row"><span class="focus-mark violet">BI</span><div><strong>Business intelligence</strong><small>Power BI · Tableau · Excel</small></div></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">ABOUT</p>
+        <h2 class="section-title">Curious about data. Focused on outcomes.</h2>
+        <p class="section-intro">I'm an Electrical Engineering graduate transitioning into data analytics. I enjoy cleaning datasets, exploring patterns, writing SQL queries, and presenting findings through clear dashboards. My portfolio reflects hands-on projects and continuous learning.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow">SKILLS</p>
+        <h2 class="section-title">Tools I use to work with data.</h2>
+        <p class="section-intro">A focused set of tools for analysis, querying, reporting, and visualization.</p>
+        <div class="skills-grid">
+          <article class="skill-card"><h3>Programming &amp; Analysis</h3><ul class="tag-list"><li>Python</li><li>Pandas</li><li>NumPy</li><li>Matplotlib</li><li>Seaborn</li><li>EDA</li><li>Data Cleaning</li></ul></article>
+          <article class="skill-card"><h3>Databases &amp; SQL</h3><ul class="tag-list"><li>SQL</li><li>MySQL</li><li>Joins</li><li>Aggregations</li><li>Subqueries</li><li>Database Design</li></ul></article>
+          <article class="skill-card"><h3>BI &amp; Visualization</h3><ul class="tag-list"><li>Power BI</li><li>DAX</li><li>Power Query</li><li>Tableau</li><li>Dashboards</li><li>KPI Reporting</li></ul></article>
+          <article class="skill-card"><h3>Tools &amp; Workflow</h3><ul class="tag-list"><li>Excel</li><li>Jupyter Notebook</li><li>Git</li><li>GitHub</li><li>Data Storytelling</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2 class="section-title">Projects built through practice.</h2>
+        <p class="section-intro">Each project focuses on a practical workflow, from preparing data to querying it or communicating findings.</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">Python · EDA</span></div>
+            <h3>Indian Automobile Market Analysis</h3>
+            <p>Exploratory analysis of 15,000 vehicle records to study pricing, sales, vehicle segments, fuel types, and EV trends.</p>
+            <ul class="tag-list"><li>Python</li><li>Pandas</li><li>NumPy</li><li>Matplotlib</li><li>Seaborn</li></ul>
+            <a class="text-link" href="https://github.com/iganeshjogi/Indian-Automobile-Market-Analysis-EDA" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">Power BI</span></div>
+            <h3>Automobile Market Dashboard</h3>
+            <p>Interactive dashboard built from the automobile analysis dataset to explore market performance, pricing, segments, and EV indicators.</p>
+            <ul class="tag-list"><li>Power BI</li><li>DAX</li><li>Power Query</li><li>Data Visualization</li></ul>
+            <a class="text-link" href="https://github.com/iganeshjogi/Indian-Automobile-Market-Analysis-PowerBI" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">Python · MySQL</span></div>
+            <h3>Library Management System</h3>
+            <p>Console-based CRUD application covering book records, issue and return workflows, member management, and payment tracking.</p>
+            <ul class="tag-list"><li>Python</li><li>MySQL</li><li>CRUD</li><li>Database</li></ul>
+            <a class="text-link" href="https://github.com/iganeshjogi/Library-Management-System" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">MySQL</span></div>
+            <h3>Hospital Management System</h3>
+            <p>Relational database project for patients, doctors, encounters, prescriptions, tests, reports, and medical procedures.</p>
+            <ul class="tag-list"><li>MySQL</li><li>SQL</li><li>Joins</li><li>Relational Design</li></ul>
+            <a class="text-link" href="https://github.com/iganeshjogi/Hospital-Management-System-MySQL" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">Tableau</span></div>
+            <h3>Global E-commerce Sales Dashboard</h3>
+            <p>Interactive sales dashboard designed to track key performance indicators and explore e-commerce business trends.</p>
+            <ul class="tag-list"><li>Tableau</li><li>Dashboards</li><li>KPIs</li><li>Business Insights</li></ul>
+            <a class="text-link" href="https://github.com/iganeshjogi/Global-Ecommerce-Sales-Analysis-Tableau" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">Power BI</span></div>
+            <h3>Food Delivery Restaurant Analytics</h3>
+            <p>Dashboard for exploring restaurant and food-delivery data through performance indicators, filters, and visual summaries.</p>
+            <ul class="tag-list"><li>Power BI</li><li>Visualization</li><li>Dashboards</li></ul>
+            <a class="text-link" href="https://github.com/iganeshjogi/Food-Delivery-Restaurant-Analytics-PowerBI" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
+          </article>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="container">
+        <p class="eyebrow">CERTIFICATIONS</p>
+        <h2 class="section-title">Learning backed by credentials.</h2>
+        <p class="section-intro">Verify my completed courses and certifications through their official credential links.</p>
+        <div class="cert-grid">
+          <article class="cert-card"><div class="cert-content"><h3>30 Days Power BI Micro Course</h3><p>SkillCourse · 2026</p><a class="text-link cert-open" href="https://edu.skillcourse.in/view-certificate/SC-W8JL910MQY" target="_blank" rel="noopener noreferrer">Verify certificate ↗</a></div></article>
+          <article class="cert-card"><div class="cert-content"><h3>MySQL for Data Analytics and Business Intelligence</h3><p>Coursera / Edureka · 2026</p><a class="text-link cert-open" href="https://www.coursera.org/account/accomplishments/verify/3R2WZALIZ0S7" target="_blank" rel="noopener noreferrer">Verify certificate ↗</a></div></article>
+          <article class="cert-card"><div class="cert-content"><h3>GenAI for Data Analysts</h3><p>Coursera · 2026</p><a class="text-link cert-open" href="https://www.coursera.org/account/accomplishments/verify/EZ117A98CGYU" target="_blank" rel="noopener noreferrer">Verify certificate ↗</a></div></article>
+          <article class="cert-card"><div class="cert-content"><h3>Introduction to Data Analysis Using Python</h3><p>Google / Coursera · 2026</p><a class="text-link cert-open" href="https://www.coursera.org/account/accomplishments/verify/VLOLR3BR6GGS" target="_blank" rel="noopener noreferrer">Verify certificate ↗</a></div></article>
+          <article class="cert-card"><div class="cert-content"><h3>Data Analytics Job Simulation</h3><p>Deloitte · 2026</p><a class="text-link cert-open" href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_6a72f0488497bd6cfc4a4743_1792431644125_completion_certificate.pdf" target="_blank" rel="noopener noreferrer">Verify certificate ↗</a></div></article>
+          <article class="cert-card"><div class="cert-content"><h3>SQL (Basic)</h3><p>HackerRank · 2026</p><a class="text-link cert-open" href="https://www.hackerrank.com/certificates/5e0837f01b2b" target="_blank" rel="noopener noreferrer">Verify certificate ↗</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container narrow">
+        <p class="eyebrow">EDUCATION</p>
+        <h2 class="section-title">Education</h2>
+        <div class="education-item"><div><h3>B.Tech — Electrical Engineering (Electrical &amp; Power)</h3><p>M. S. Bidve Engineering College, Latur · DBATU, Lonere</p></div><span>2023–2026</span></div>
+        <div class="education-item"><div><h3>Diploma — Electrical Engineering</h3><p>Puranmal Lahoti Government Polytechnic College, Latur · MSBTE</p></div><span>2020–2023</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-panel">
+        <div><p class="eyebrow">CONTACT</p><h2 class="section-title">Let's talk about data.</h2><p class="section-intro">I'm open to entry-level Data Analyst, Junior Data Analyst, and Business Intelligence opportunities.</p></div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:ganeshjogi2004@gmail.com">Email me <span>↗</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/iganeshjogi/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span>↗</span></a>
+          <a class="button button-quiet" href="assets/resume.pdf" download>Download resume <span>↓</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>© <span id="current-year"></span> Ganesh Jogi</span><span>Built with HTML, CSS &amp; JavaScript</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
